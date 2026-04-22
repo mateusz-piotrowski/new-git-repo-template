@@ -1,5 +1,18 @@
 # The Changelog
 
+## [0.0.4] (April 20, 2026)
+
+**Added:**
+
+- Prerequisites and system requirements section in `README.md`
+- Directory structure explanation with ASCII tree in `README.md`
+- Example output of git clone and setup process in `README.md`
+- Language-specific documentation links for 10+ popular programming languages in `README.md`
+
+**Changed:**
+
+- Enhanced Getting Started section with detailed step-by-step instructions in `README.md`
+
 ## [0.0.3] (April 04, 2026)
 
 **Added:**
