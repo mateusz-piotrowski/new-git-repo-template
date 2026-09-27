@@ -1,5 +1,19 @@
 # The Changelog
 
+## [0.0.5] (September 27, 2026)
+
+**Added:**
+
+- Add initial configuration files and templates for the repository
+  - Add .devcontainer/devcontainer.json for development environment
+  - Add .editorconfig for code style settings
+  - Add .gitattributes for handling binary files
+  - Create issue templates for bug reports and feature requests
+  - Add pull request template
+  - Configure dependabot for GitHub Actions and npm
+  - Set up pre-commit hooks for code quality checks
+  - Define CODEOWNERS for repository ownership
+
 ## [0.0.4] (April 20, 2026)
 
 **Added:**

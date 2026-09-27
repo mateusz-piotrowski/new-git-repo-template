@@ -1,0 +1,6 @@
+# Default owners for the repository
+* @your-github-username
+
+# Documentation and governance
+/docs/ @your-github-username
+/.github/ @your-github-username
