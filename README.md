@@ -32,6 +32,8 @@ new-git-repo-template/
 ├── CONTRIBUTING.md          # Guidelines for contributing to the project
 ├── SECURITY.md              # Security policy and vulnerability reporting
 ├── CHANGELOG.md             # Version history and release notes
+├── scripts/
+│   └── select-language.sh   # Pick a language and add its rules to .gitignore
 └── .gitignore               # Git ignore rules (to be customized)
 ```
 
@@ -66,30 +68,20 @@ cd my-project
 
 3. Customize the files as needed (update README.md, LICENSE, etc.)
 
-4. Add your project files and configure .gitignore
+4. Choose your language and update .gitignore:
+   ```bash
+   ./scripts/select-language.sh
+   ```
 
-5. Push your changes to your new repository:
+5. Add your project files
+
+6. Push your changes to your new repository:
 
 ```bash
 git add .
 git commit -m "Initial commit"
 git push origin master
 ```
-
-## Language-Specific Documentation
-
-Choose the documentation relevant to your project:
-
-- **JavaScript/Node.js**: [Node.js Official Documentation](https://nodejs.org/docs/)
-- **Python**: [Python Official Documentation](https://docs.python.org/)
-- **Java**: [Java SE Documentation](https://docs.oracle.com/javase/)
-- **Go**: [Go Documentation](https://golang.org/doc/)
-- **Rust**: [Rust Book](https://doc.rust-lang.org/book/)
-- **C++**: [C++ Reference](https://en.cppreference.com/)
-- **C#/.NET**: [.NET Documentation](https://docs.microsoft.com/dotnet/)
-- **PHP**: [PHP Documentation](https://www.php.net/docs.php)
-- **Ruby**: [Ruby Documentation](https://ruby-doc.org/)
-- **TypeScript**: [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 
 ## Code of Conduct
 
