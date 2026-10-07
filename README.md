@@ -1,12 +1,21 @@
 # New git repository template
 
-## Description
-
-The project contains basic files to the new git repository.
+A ready-to-use starting point for new git repositories.
 
 ## Motivation
 
 The projects has been created to easier setup new git repository.
+
+## The problem
+
+Every new project needs the same boilerplate: license, contributing guide, code of conduct, security policy, issue and PR templates, CI, editor settings, pre-commit hooks. Recreating it by hand is slow and easy to get wrong.
+
+## Why use this template
+
+- **Saves time**: governance docs, GitHub templates, CI, Dependabot and a devcontainer are already in place.
+- **Consistent**: shared `.editorconfig`, `.gitattributes` and pre-commit hooks keep formatting uniform.
+- **Language-agnostic**: one script adds `.gitignore` rules for your language.
+- **Easy to customize**: placeholders mark what you need to change.
 
 ## Prerequisites
 
@@ -26,80 +35,54 @@ The projects has been created to easier setup new git repository.
 
 ```text
 new-git-repo-template/
-├── README.md                # Project overview and setup instructions
-├── LICENSE                  # MIT license file
-├── CODE_OF_CONDUCT.md       # Community guidelines and expected behavior
-├── CONTRIBUTING.md          # Guidelines for contributing to the project
-├── SECURITY.md              # Security policy and vulnerability reporting
-├── CHANGELOG.md             # Version history and release notes
+├── .devcontainer/
+│   └── devcontainer.json        # Development container
+├── .github/
+│   ├── ISSUE_TEMPLATE/          # Bug report and feature request templates
+│   ├── workflows/ci.yml         # CI workflow
+│   ├── dependabot.yml           # Dependency updates
+│   └── PULL_REQUEST_TEMPLATE.md # Pull request template
 ├── scripts/
-│   └── select-language.sh   # Pick a language and add its rules to .gitignore
-└── .gitignore               # Git ignore rules (to be customized)
+│   └── select-language.sh       # Pick a language and update .gitignore
+├── .editorconfig                # Editor style settings
+├── .gitattributes               # Line endings and binary files
+├── .gitignore                   # Git ignore rules
+├── .pre-commit-config.yaml      # Pre-commit hooks
+├── AGENTS.md                    # Guidance for AI coding agents
+├── CHANGELOG.md                 # Version history and release notes
+├── CODEOWNERS                   # Repository ownership
+├── CODE_OF_CONDUCT.md           # Community guidelines
+├── CONTRIBUTING.md              # Contribution guidelines
+├── LICENSE                      # MIT license
+├── README.md                    # Project overview and setup
+└── SECURITY.md                  # Security policy
 ```
 
-## Getting Started
+## Setup
 
-To use this template:
+1. Create a new repository from this template (GitHub: **Use this template**), or clone it:
 
-1. Clone the repository:
+   ```bash
+   git clone <repository-url> my-project
+   cd my-project
+   ```
 
-```bash
-git clone <repository-url>
-```
+2. Choose your language and update `.gitignore`:
 
-**Example output:**
-
-```text
-$ git clone https://github.com/username/my-project.git
-Cloning into 'my-project'...
-remote: Enumerating objects: 20, done.
-remote: Counting objects: 100% (20/20), done.
-remote: Compressing objects: 100% (15/15), done.
-remote: Total 20 (delta 2), reused 20 (delta 2), pack-reused 0
-Receiving objects: 100% (20/20), 45.23 KiB | 2.25 MiB/s, done.
-Resolving deltas: 100% (2/2), done.
-```
-
-2. Navigate to the cloned directory:
-
-```bash
-cd my-project
-```
-
-3. Customize the files as needed (update README.md, LICENSE, etc.)
-
-4. Choose your language and update .gitignore:
    ```bash
    ./scripts/select-language.sh
    ```
 
-5. Add your project files
+3. Replace the placeholders: `@your-github-username` in `CODEOWNERS`, `security@example.com` in `SECURITY.md`, and the setup commands in `CONTRIBUTING.md` and `.github/workflows/ci.yml`.
 
-6. Push your changes to your new repository:
+4. Update this README, then commit and push.
 
-```bash
-git add .
-git commit -m "Initial commit"
-git push origin master
-```
-
-## Code of Conduct
-
-Please review our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) for expected behavior.
+Optional: install [`pre-commit`](https://pre-commit.com) and run `pre-commit install`.
 
 ## Contributing
 
-Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to contribute to this project.
-
-## Contributor
-
-Mateusz Piotrowski
+See [CONTRIBUTING.md](CONTRIBUTING.md) and the [Code of Conduct](CODE_OF_CONDUCT.md).
 
 ## License
 
-MIT
-
-## Badges
-
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
+[MIT](LICENSE) © Mateusz Piotrowski

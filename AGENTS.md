@@ -35,7 +35,7 @@ A **template repository** for bootstrapping new git projects. It contains no app
 - **Formatting** (`.editorconfig`): UTF-8, LF line endings, final newline, 4-space indent, 2-space for `*.yml`/`*.yaml`, trim trailing whitespace (except in `*.md`).
 - **Markdown** is linted by markdownlint; keep headings well-structured.
 - **Placeholders** (e.g. `@your-github-username`, `security@example.com`, `<repository-url>`) are intentional. Don't replace them with invented values.
-- **Keep docs in sync**: when adding or removing top-level files, update the "Directory Structure" tree in `README.md` (it is already missing several files, e.g. `CODEOWNERS`, `.editorconfig`, `.github/`).
+- **Keep docs in sync**: when adding or removing top-level files, update the "Directory Structure" tree in `README.md`.
 - **Changelog**: record user-visible changes in `CHANGELOG.md` under a new version heading, using the existing format (`## [x.y.z] (Month DD, YYYY)` with `**Added:**` / `**Changed:**` bullet lists).
 - **Commits**: short, imperative, descriptive messages (e.g. "Add initial configuration files and templates for the repository"). Keep commits focused.
 
