@@ -13,13 +13,16 @@ We welcome contributions to this project! To ensure a smooth collaboration, plea
 ## Development Setup
 
 1. Set up your environment:
-   ```bash
-   # Add commands to set up your environment (e.g., install dependencies)
-   ```
+
+```bash
+# Add commands to set up your environment (e.g., install dependencies)
+```
+
 2. Run the application:
-   ```bash
-   # Add commands to run your application
-   ```
+
+```bash
+# Add commands to run your application
+```
 
 ## Pull Request Checklist
 
@@ -29,8 +32,8 @@ We welcome contributions to this project! To ensure a smooth collaboration, plea
 
 ## Code Style
 
--   Follow the existing code style and conventions.
--   Ensure your code is well-commented.
+- Follow the existing code style and conventions.
+- Ensure your code is well-commented.
 
 ## Reporting Bugs
 

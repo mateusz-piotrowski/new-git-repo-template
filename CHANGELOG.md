@@ -1,18 +1,28 @@
 # The Changelog
 
+## [0.0.6] (October 07, 2026)
+
+**Added:**
+
+- `AGENTS.md` file for AI coding agent guidance
+
+**Updated:**
+
+- `README.md` for improved formatting
+
 ## [0.0.5] (September 27, 2026)
 
 **Added:**
 
 - Add initial configuration files and templates for the repository
-  - Add .devcontainer/devcontainer.json for development environment
-  - Add .editorconfig for code style settings
-  - Add .gitattributes for handling binary files
+  - Add `.devcontainer/devcontainer.json` for development environment
+  - Add `.editorconfig` for code style settings
+  - Add `.gitattributes` for handling binary files
   - Create issue templates for bug reports and feature requests
   - Add pull request template
   - Configure dependabot for GitHub Actions and npm
   - Set up pre-commit hooks for code quality checks
-  - Define CODEOWNERS for repository ownership
+  - Define `CODEOWNERS` for repository ownership
 
 ## [0.0.4] (April 20, 2026)
 
@@ -31,13 +41,13 @@
 
 **Added:**
 
-- CHANGELOG.md sections headers
+- `CHANGELOG.md` sections headers
 
 ## [0.0.2] (December 27, 2025)
 
 **Added:**
 
-- .gitignore file
+- `.gitignore` file
 - GitHub Actions CI workflow
 - Good practices in `SECURITY.md`
 - Manifest in `CODE_OF_CONDUCT.md`
@@ -53,6 +63,6 @@
 
 **Added:**
 
-- LICENSE
-- CHANGELOG.md
-- README.md
+- `LICENSE`
+- `CHANGELOG.md`
+- `README.md`

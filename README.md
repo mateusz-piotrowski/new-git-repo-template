@@ -24,7 +24,7 @@ The projects has been created to easier setup new git repository.
 
 ## Directory Structure
 
-```
+```text
 new-git-repo-template/
 ├── README.md                # Project overview and setup instructions
 ├── LICENSE                  # MIT license file
@@ -40,37 +40,41 @@ new-git-repo-template/
 To use this template:
 
 1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   ```
-   
-   **Example output:**
-   ```
-   $ git clone https://github.com/username/my-project.git
-   Cloning into 'my-project'...
-   remote: Enumerating objects: 20, done.
-   remote: Counting objects: 100% (20/20), done.
-   remote: Compressing objects: 100% (15/15), done.
-   remote: Total 20 (delta 2), reused 20 (delta 2), pack-reused 0
-   Receiving objects: 100% (20/20), 45.23 KiB | 2.25 MiB/s, done.
-   Resolving deltas: 100% (2/2), done.
-   ```
+
+```bash
+git clone <repository-url>
+```
+
+**Example output:**
+
+```text
+$ git clone https://github.com/username/my-project.git
+Cloning into 'my-project'...
+remote: Enumerating objects: 20, done.
+remote: Counting objects: 100% (20/20), done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 20 (delta 2), reused 20 (delta 2), pack-reused 0
+Receiving objects: 100% (20/20), 45.23 KiB | 2.25 MiB/s, done.
+Resolving deltas: 100% (2/2), done.
+```
 
 2. Navigate to the cloned directory:
-   ```bash
-   cd my-project
-   ```
+
+```bash
+cd my-project
+```
 
 3. Customize the files as needed (update README.md, LICENSE, etc.)
 
 4. Add your project files and configure .gitignore
 
 5. Push your changes to your new repository:
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
+
+```bash
+git add .
+git commit -m "Initial commit"
+git push origin master
+```
 
 ## Language-Specific Documentation
 
